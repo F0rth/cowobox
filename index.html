@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Cowobox : A beefy pirate box like to self-host coworking apps where the Net is not avaible." />
+    <meta name="description" content="CowoBox : A beefy pirate box clone to self-host coworking apps when your team building week-end is off the grid." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Cowobox</title>
+    <title>CowoBox</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/F0rth/cowobox">View on GitHub</a>
 
-          <h1 id="project_title">Cowobox</h1>
-          <h2 id="project_tagline">A beefy pirate box like to self-host coworking apps where the Net is not avaible.</h2>
+          <h1 id="project_title">CowoBox</h1>
+          <h2 id="project_tagline">A beefy pirate box clone to self-host coworking apps when your team building week-end is off the grid.</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/F0rth/cowobox/zipball/master">Download this project as a .zip file</a>
@@ -40,17 +40,34 @@
 <a name="3-easy-steps-to-start-with-the-cowobox" class="anchor" href="#3-easy-steps-to-start-with-the-cowobox"><span class="octicon octicon-link"></span></a>3 easy steps to start with the CowoBox:</h2>
 
 <ol>
-<li>Connect to the "cowobox" wifi network</li>
+<li>Connect to the "COOWOBOX" wifi network</li>
 <li>Open your web browser</li>
 <li>Enter any URL and you will be redirected to the CowoBox welcome page (etherpad for now).</li>
-</ol>
+</ol><h2>
+<a name="how-to-build-your-own-cowobox" class="anchor" href="#how-to-build-your-own-cowobox"><span class="octicon octicon-link"></span></a>How-to build your own CowoBox</h2>
+
+<p>Let's grab a nifty shiny single board computer, they have been very popular since the RaspberryPi marketing, but any board will do (Olinuxino, GooseBerry, BeagleBoard, etc). Olimex (not affiliated) do some nice board with LiPo battery charger included (that's a plus):
+<img src="http://olimex.files.wordpress.com/2013/12/a10-olinuxino-lime-1.jpg" alt="Olinuxino A10 Lime"></p>
+
+<p>Then find a cheap usb wifi dongle compatible with hostapd:
+<a href="http://w1.fi/hostapd/">hostapd home page</a>
+Realtek 8192cu are cheap on AliExpress or DX
+<img src="http://i00.i.aliimg.com/img/pb/103/535/560/560535103_787.JPG" alt="cheap dontgle"></p>
+
+<p>Install your favorite Unix derivated OS (Debian, Archlinux, FreeBSD, etc ) and add etherpad, redis, dnsmasq, hostpad in the mix. The key component is dnsmasq which reply the wifi ip address to any dns resquest.
+Example configuration files are on the github for your convinience.</p>
+
+<h2>
+<a name="where-to-test-a-cowobox-" class="anchor" href="#where-to-test-a-cowobox-"><span class="octicon octicon-link"></span></a>Where to test a CowoBox ?</h2>
+
+<p>You can grab one at <a href="http://latelier.in">Latelier</a> !</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Cowobox maintained by <a href="https://github.com/F0rth">F0rth</a></p>
+        <p class="copyright">CowoBox maintained by <a href="https://github.com/F0rth">F0rth</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
