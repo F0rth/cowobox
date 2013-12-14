@@ -34,7 +34,7 @@
         <h1>
 <a name="welcome-to-the-cowobox-website" class="anchor" href="#welcome-to-the-cowobox-website"><span class="octicon octicon-link"></span></a>Welcome to the CowoBox website</h1>
 
-<p>The CowoBox is a very easy to use device. Like the PirateBox but a with more powerjuice. It hosts coworking applications (etherpad, ...) to speed up working group in remote no-internet place.</p>
+<p>The CowoBox is a very easy to use device. Like the PirateBox but a with more powerjuice. It hosts coworking applications (etherpad, ...) to speed up team work in remote no-internet places.</p>
 
 <h2>
 <a name="3-easy-steps-to-start-with-the-cowobox" class="anchor" href="#3-easy-steps-to-start-with-the-cowobox"><span class="octicon octicon-link"></span></a>3 easy steps to start with the CowoBox:</h2>
@@ -46,15 +46,14 @@
 </ol><h2>
 <a name="how-to-build-your-own-cowobox" class="anchor" href="#how-to-build-your-own-cowobox"><span class="octicon octicon-link"></span></a>How-to build your own CowoBox</h2>
 
-<p>Let's grab a nifty shiny single board computer, they have been very popular since the RaspberryPi marketing, but any board will do (Olinuxino, GooseBerry, BeagleBoard, etc). Olimex (not affiliated) do some nice board with LiPo battery charger included (that's a plus):
+<p>Let's grab a nifty shiny single board computer, they have been very popular since the RaspberryPi marketing, but any board will do (Olinuxino, GooseBerry, BeagleBoard, etc). Olimex (not affiliated) do some nice board with LiPo battery charger included (nice):
 <img src="http://olimex.files.wordpress.com/2013/12/a10-olinuxino-lime-1.jpg" alt="Olinuxino A10 Lime"></p>
 
 <p>Then find a cheap usb wifi dongle compatible with hostapd:
-<a href="http://w1.fi/hostapd/">hostapd home page</a>
-Realtek 8192cu are cheap on AliExpress or DX
+<a href="http://w1.fi/hostapd/">hostapd home page</a>. Realtek 8192cu are cheap on AliExpress or DX, Ralink and others do nice dongle too.
 <img src="http://i00.i.aliimg.com/img/pb/103/535/560/560535103_787.JPG" alt="cheap dontgle"></p>
 
-<p>Install your favorite Unix derivated OS (Debian, Archlinux, FreeBSD, etc ) and add etherpad, redis, dnsmasq, hostpad in the mix. The key component is dnsmasq which reply the wifi ip address to any dns resquest.
+<p>Install your favorite Unix derivated OS (Debian, Archlinux, FreeBSD, etc ) and add etherpad, redis, dnsmasq, hostpad in the mix. The key component is dnsmasq which reply the cowobox wifi ip address to any dns resquest.
 Example configuration files are on the github for your convinience.</p>
 
 <h2>
